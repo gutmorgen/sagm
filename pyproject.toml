@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "administrador"
+version = "0.1.0"
+description = ""
+authors = ["Junior Avila <gutenmorgen.ca@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.0.3"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.0.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
